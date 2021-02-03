@@ -5,8 +5,10 @@ Hint: Try converting each value to a Boolean.
 */
 
 function bouncer(arr) {
-    return arr.filter(function(e) {return Boolean(e) === true})
-    }
+    return arr.filter(function (e) {
+        return Boolean(e) === true
+    })
+}
 
 // Test cases
 
