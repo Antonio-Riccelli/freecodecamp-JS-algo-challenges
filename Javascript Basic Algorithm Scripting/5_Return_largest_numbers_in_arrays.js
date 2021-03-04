@@ -4,15 +4,12 @@ Remember, you can iterate through an array with a simple for loop, and access ea
 */
 
 function largestOfFour(arr) {
-    let maxArray = [];
-    for (let i = 0; i < arr.length; i++) {
-      arr[i] = arr[i].sort(function(a, b){return a-b})
-    };
-    for (let e = 0; e < arr.length; e++) {
-      maxArray.push(arr[e][arr[e].length - 1])
-    }
-    return maxArray;
+  let maxArray = [];
+  for (let e = 0; e < arr.length; e++) {
+    maxArray.push(Math.max(...arr[e]))
   }
+  return maxArray;
+}
 
   // Test cases
 
