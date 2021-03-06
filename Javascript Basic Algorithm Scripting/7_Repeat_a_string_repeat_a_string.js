@@ -4,16 +4,13 @@ For the purpose of this challenge, do not use the built-in .repeat() method.
 */
 
 function repeatStringNumTimes(str, num) {
-    if (num < 0) {
-        return "";
-    } else {
         let string = "";
         for (let i = num; i > 0; i--) {
             string = string.concat(str)
         }
         return string;
     }
-}
+
 
 // Test cases
 
