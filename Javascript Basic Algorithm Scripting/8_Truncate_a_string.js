@@ -13,7 +13,7 @@ function truncateString(str, num) {
 let testCaseOne = truncateString("A-tisket a-tasket A green and yellow basket", 8);
 console.log(testCaseOne);
 
-// truncateString("Peter Piper picked a peck of pickled peppers", 11).
+// truncateString("Peter Piper picked a peck of pickled peppers", 11) should return the string "Peter Piper..."
 let testCaseTwo = truncateString("Peter Piper picked a peck of pickled peppers", 11);
 console.log(testCaseTwo);
 
