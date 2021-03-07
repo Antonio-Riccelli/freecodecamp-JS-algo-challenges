@@ -3,9 +3,10 @@ Return the provided string with the first letter of each word capitalized. Make 
 For the purpose of this exercise, you should also capitalize connecting words like "the" and "of".
 */
 
+
 function titleCase(str) {
-    return str.split(" ").map(function(e) {return e[0].toUpperCase() + e.slice(1).toLowerCase()}).join(" ")
-  }
+  return str.split(" ").map(function(e) {return `${e[0].toUpperCase()}${e.slice(1).toLowerCase()}`}).join(" ")
+}
 
 // Test cases
 
